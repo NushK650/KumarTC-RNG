@@ -1,3 +1,5 @@
 /* background  */
-/* side bar */
-/* main card */
+body{
+   background-color: rgb(83, 86, 89);
+   color: aliceblue;
+}

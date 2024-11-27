@@ -177,6 +177,36 @@
       "lastName": "Orr",
       "email": "Chas2687@gmail.com",
       "codeStackEmail": "corr@codestack.co"
-    }
+    },
+    {
+        "firstName": "Ken",
+        "lastName": " Martinez",
+        "email": "kmartinez@sjcoe.net",
+        "codeStackEmail": "kmartinez@codestack.co"
+        
+      },
+      {
+        "firstName": "Jacob",
+        "lastName": "Dekok",
+        "email": "jdekok@sjcoe.net"
+        
+        
+      },
+      {
+        "firstName": "Isaiah",
+        "lastName": " Ferguson",
+        "email": "ifergusonlll@sjcoe.net",
+        "codeStackEmail": "iferguson@codestack.co"
+
+        
+      },
+      {
+        "firstName": "Bryan",
+        "lastName": " Stewart",
+        "email": "stewartbj93@gmail.com",
+        "codeStackEmail": "bstewart@codestack.co"
+       
+      }
+      
   ]
 }
