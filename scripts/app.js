@@ -24,7 +24,7 @@ function getRandomStudent(peopleList){
 pickPerson.addEventListener('click', () => {
     getData() .then( peopleList => {
         let randomStudent = getRandomStudent(peopleList);
-        console.log(randomStudent);
+       
         lastFiveShown.unshift(randomStudent);
         if (lastFiveShown.length > 5) {
             lastFiveShown.pop();
@@ -33,7 +33,7 @@ pickPerson.addEventListener('click', () => {
         lastName.innerText = randomStudent.lastName;
         email.innerText = randomStudent.email;
         codeStackEmail.innerText = randomStudent.codeStackEmail
-        console.log('Last 5 people shown:', lastFiveShown);
+       
         
         for (let i = 0; i < 5; i++) {
             let historyDiv = document.getElementById(`history${i}`);
@@ -43,9 +43,7 @@ pickPerson.addEventListener('click', () => {
                     <p>${lastFiveShown[i].email}</p>
                     <p>${lastFiveShown[i].codeStackEmail}</p>
                 `;
-            } else {
-                historyDiv.innerHTML = '';
-            }
+            } 
         }
 
     })

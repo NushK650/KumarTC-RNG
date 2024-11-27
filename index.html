@@ -13,33 +13,53 @@
     <link rel="stylesheet" href="./styles/styles.css">
   </head>
   <body>
-    <div class="container-fluid">
-        <div class="row">
-
-            <div class="col-4">
-                
-                <div class="history-section"></div>
-                    <h2>Last 5 Selected Students:</h2>
-                    <div id="history">
-                        <div id="history0"></div>
-                        <div id="history1"></div>
-                        <div id="history2"></div>
-                        <div id="history3"></div>
-                        <div id="history4"></div>
+    <div class="container">
+      <div class="row d-flex justify-content-center">
+        <div class="col-10">
+          <div class="container-fluid">
+              <div class="row">
+      
+                  <div class="col-5">
+                      
+                    <div class="card text-center text-bg-dark">
+                      <div class="card-header">
+                        <h2>Last 5 Selected Students:</h2>
+                      </div>
+                      <ul class="list-group list-group-flush">
+                        <li id="history0" class="list-group-item text-bg-dark">Name <br> Email <br> CodeStack Email</li>
+                        <li  id="history1" class="list-group-item text-bg-dark">Name <br> Email <br> CodeStack Email</li>
+                        <li id="history2" class="list-group-item text-bg-dark">Name <br> Email <br> CodeStack Email</li>
+                        <li id="history3" class="list-group-item text-bg-dark">Name <br> Email <br> CodeStack Email</li>
+                        <li id="history4" class="list-group-item text-bg-dark">Name <br> Email <br> CodeStack Email</li>
+                      </ul>
                     </div>
-            </div>
-          <div class="col-4">
-              <h1 id="firstName" class="text-center" > firstname</h1>
-              <h1 id="lastName" class="text-center" > lastname</h1>
-              <h1 id="email" class="text-center" > email</h1>
-              <h1 id="codeStackEmail" class="text-center" > codestack.co email</h1>
-              <div class="d-flex justify-content-center">
-                  <button id="pickPerson" type="button" class="btn btn-primary">Click Me!</button>
+                          
+                          
+                  </div>
+                <div class="col-5">
+                  <div class="card text-center text-bg-dark">
+                    <div class="card-header">
+                      <h2>People</h2>
+                    </div>
+                    <div class="card-body">
+                      <h4 id="firstName" class="text-center" > Firstname</h4>
+                      <h4 id="lastName" class="text-center" > Lastname</h4>
+                      <h4 id="email" class="text-center" > Email</h4>
+                      <h4 id="codeStackEmail" class="text-center" > Codestack.co Email</h4>
+                      <div class="d-flex justify-content-center">
+                          <button id="pickPerson" type="button" class="btn btn-primary">Click Me!</button>
+                      </div>
+                    </div>
+                    
+                  </div>
+            
+                </div>
               </div>
       
           </div>
-        </div>
 
+        </div>
+      </div>
     </div>
     
     <script
