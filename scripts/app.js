@@ -9,7 +9,7 @@ function getData(){
     return fetch('../data/data.json')
     .then( response => response.json())
     .then( data => {
-        console.log(data)
+       
         return data.peopleList
     })   
 }
